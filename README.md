@@ -1,6 +1,6 @@
 # Historical-Redlining-and-Land-Surface-Temperature-DSM
 Spatial analysis examining whether 1930s HOLC redlining grades are associated with contemporary summer land surface temperature (LST), using Landsat 8/9 thermal imagery and digitized HOLC boundaries
-![Historical-Redlining-and-Land-Surface-Temperature-DSM](figures/overlay_LST.png)
+![Historical-Redlining-and-Land-Surface-Temperature-DSM](overlay_LST.png)
 
 ## Motivation
 Prior research links historical redlining to elevated present-day urban heat in several large U.S. metros. This project tests whether that pattern holds in the smaller, Midwestern city of Des Moines, Iowa as a self-directed methods exercise in spatial environmental epidemiology.

@@ -22,7 +22,7 @@ Full citations at the bottom of this README.
 4. Extracted LST at polygon level (mean per polygon) and pixel level using `exactextractr`
 5. Compared LST across HOLC grades (A–D) using Kruskal-Wallis tests at both polygon and pixel resolution
 
-See full pipeline on [LST_Redlining.md](LST_Redlining.md)
+See full pipeline on [LST_Redlining.pdf](LST_Redlining.pdf)
 
 ## Requirements
  
@@ -48,15 +48,15 @@ source("LST_RedliningCode.R")
  
 - Polygon-level test: no significant association (Kruskal-Wallis p = 0.86, n≈30)
 - Pixel-level test: significant association (p < 2.2e-16, n≈thousands) — interpreted cautiously due to spatial autocorrelation
-- Full discussion of effect sizes and limitations in [LST_Redlining.md](LST_Redlining.md)
+- Full discussion of effect sizes and limitations in [LST_Redlining.pdf](LST_Redlining.pdf)
 
 ## Repository Structure
  
 ```
 .
-├── LST_RedliningCode.R          # full pipeline: data pull -> processing -> stats -> figures
-├── LST_Redlining.md          # full write-up with methods, results, discussion
-├── figures/             # exported plots (heatmap, boxplot, overlay map)
+├── LST_RedliningCode.R          # full code
+├── LST_Redlining.pdf          # full write-up with methods, results, discussion
+├── .png files            # exported plots (heatmap, boxplot, overlay map)
 └── README.md
 ```
  

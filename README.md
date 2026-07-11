@@ -47,7 +47,7 @@ source("LST_RedliningCode.R")
 ## Summary of Results
  
 - Polygon-level test: no significant association (Kruskal-Wallis p = 0.86, n≈30)
-- Pixel-level test: significant association (p < 2.2e-16, n≈thousands) — interpreted cautiously due to spatial autocorrelation
+- Pixel-level test: significant association (p < 2.2e-16), interpreted cautiously due to spatial autocorrelation
 - Full discussion of effect sizes and limitations in [LST_Redlining.pdf](LST_Redlining.pdf)
 
 ## Repository Structure
@@ -62,8 +62,8 @@ source("LST_RedliningCode.R")
  
 ## Citations
  
-Nelson, Robert K., LaDale Winling, et al., "Mapping Inequality," *American Panorama*, ed. Robert K. Nelson and Edward L. Ayers, accessed [date], https://dsl.richmond.edu/panorama/redlining/.
+Nelson, Robert K., LaDale Winling, et al., "Mapping Inequality," *American Panorama*, ed. Robert K. Nelson and Edward L. Ayers, accessed [July 9, 2026], https://dsl.richmond.edu/panorama/redlining/.
  
-U.S. Geological Survey. Landsat 8-9 OLI/TIRS Collection 2 Level-2 Science Products [dataset]. https://doi.org/10.5066/P975CC9B
+U.S. Geological Survey. Landsat 8-9 OLI/TIRS Collection 2 Level-2 Science Products. https://doi.org/10.5066/P975CC9B
  
 Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., & Moore, R. (2017). Google Earth Engine: Planetary-scale geospatial analysis for everyone. *Remote Sensing of Environment*, 202, 18-27.

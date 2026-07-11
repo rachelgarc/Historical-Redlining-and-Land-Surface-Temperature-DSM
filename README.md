@@ -36,11 +36,11 @@ Also requires:
 ## Usage
  
 ```r
-# 1. Authenticate Earth Engine (one-time)
+# Authenticate Earth Engine
 library(rgee)
 ee_Initialize(drive = TRUE)
  
-# 2. Run the full pipeline
+# Full pipeline
 source("LST_RedliningCode.R")
 ```
 
